@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, #463275 15%, #271258 85%);
+}
+
+/**
+ * Keyrfames.
+ */
+@keyframes swing {
+  25% {
+    transform: rotate(-1deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(1deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes swingHard {
+  25% {
+    transform: rotate(-25deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(25deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+body img {
+  height: 400px;
+  animation: swing 3s infinite linear;
+}
+
+body div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+body div h1 {
+  color: #e3e8f4;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+body div button {
+  border: none;
+  text-transform: uppercase;
+  background: #e3e8f4;
+  padding: 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+body div button a {
+  color: #30374e;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div button a img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+body div button:hover {
+  background: #c5c9d4;
+}
+
+body div button:hover a img {
+  animation: swingHard 0.5s infinite linear;
+}
