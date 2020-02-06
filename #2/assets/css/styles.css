@@ -227,6 +227,9 @@ form button {
   #left-container,
   #right-container {
     width: 100%;
+  }
+
+  #left-container {
     height: 100vh;
   }
 
