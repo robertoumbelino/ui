@@ -103,3 +103,62 @@ main button a {
 main button:hover a {
   color: #6a64fc;
 }
+
+@media only screen and (max-width: 1300px) {
+  header ul li a {
+    font-size: 18px;
+  }
+
+  main img {
+    width: 400px;
+  }
+
+  main h1 {
+    font-size: 32px;
+  }
+
+  main p {
+    font-size: 14px;
+  }
+
+  main button {
+    width: 180px;
+    height: 60px;
+  }
+
+  main button a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  header img {
+    margin-bottom: 40px;
+  }
+
+  header ul {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header ul li {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #fff;
+    margin-left: 0;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  header ul li a {
+    color: #6a64fc;
+  }
+}
