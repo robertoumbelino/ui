@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  overflow-x: hidden;
+  background: url(../img/background.png) no-repeat center fixed;
+  align-items: center;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  height: 80%;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul a {
+  color: #fff;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header ul a li {
+  margin: 20px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main h1 {
+  color: #ffffff;
+  font-size: 160px;
+  text-align: center;
+  font-family: 'Fugaz One', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  filter: drop-shadow(0px 8px 8.5px rgba(3, 5, 25, 0.22));
+}
+
+main h2 {
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+main img {
+  margin-top: 60px;
+}
+
+main .time {
+  display: flex;
+  margin-top: 30px;
+}
+
+main .time div {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .time div h4 {
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Wallpoet', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+main .time div p {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: 'Wallpoet';
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main h3 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+main .social-medias {
+  margin-top: 30px;
+}
+
+main .social-medias button {
+  color: #fff;
+  width: 124px;
+  height: 44px;
+  border: none;
+  margin: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+}
+
+main .social-medias .google {
+  background: #dd4b39;
+}
+
+main .social-medias .twitter {
+  background: #1da1f2;
+}
+
+main .social-medias .linkedin {
+  background: #0077b5;
+}
