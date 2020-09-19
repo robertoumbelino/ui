@@ -20,7 +20,7 @@
 
 body {
   background: 
-    linear-gradient(45deg, #971adc 15%, #5f4d93 85%);
+    linear-gradient(45deg, #e34a42 15%, #f25a52 85%);
 }
 
 .ring {
@@ -31,7 +31,7 @@ body {
   width: 150px;
   height: 150px;
   background: transparent;
-  border: 3px solid #9c1de7;
+  border: 3px solid #e34a42;
   border-radius: 50%;
   text-align: center;
   line-height: 150px;
